@@ -1,0 +1,83 @@
+
+   body {
+    background: #eee;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+   /* padding: 20px;*/
+    border: 7px solid rgb(134, 130, 130);
+    background: rgb(10, 9, 9);
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  
+  .calc {
+    width:320px;
+    margin:100px auto;
+    margin-top: 45px;
+    text-align: center;
+  }
+  
+  #answer {
+    background-color: #475010;
+    padding: 10px;
+    font-size: 24px;
+    width: 100%;
+    border: 2px solid rgb(232, 228, 228);
+    color: rgb(228, 224, 224);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    background:#151414;
+    height:80px;
+    width:80px;
+    color:rgb(240,233,233);
+    font-size: 30px;
+    border:5px solid rgb(197,190,190);
+    float: left;
+  }
+  
+  .button1 {
+    width: 160px;
+    height: 40px;
+    background: #131212;
+    color: rgb(215, 212, 212);
+    border: 5px solid rgb(197, 190, 190);
+   /* margin: 5px;*/
+    box-sizing: border-box;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media screen and (max-width: 768px) {
+    .container {
+     /* max-width: 90%;*/
+    }
+  
+    #answer {
+   /*   font-size: 20px;*/
+    }
+  
+    .button,
+    .button1 {
+      width: 50px;
+      height: 50px;
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .button,
+    .button1 {
+      width: 40px;
+      height: 40px;
+      font-size: 16px;
+    }
+  }
+  
